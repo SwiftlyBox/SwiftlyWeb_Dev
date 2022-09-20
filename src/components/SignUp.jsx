@@ -1,0 +1,22 @@
+import React from "react";
+import NavBar from "./NavBar";
+import Hero from "./Hero";
+import About from "./About";
+import Pricing from "./Pricing";
+import Footer from "./Footer";
+import RestuarantApplication from "./RestuarantApplication";
+import HomeRestaurant from "./HomeRestuarant.jsx";
+
+const Signup = () => {
+  return (
+    <>
+      <NavBar />
+      <Hero />
+      <About/>
+      <HomeRestaurant/>
+      <RestuarantApplication/>
+      <Footer />
+    </>
+  );
+};
+export default Signup;
