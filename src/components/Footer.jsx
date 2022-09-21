@@ -13,11 +13,11 @@ const Footer = () => {
     <div className="w-full mt-24 bg-zinc-200 text-gray-300 py-y px-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8  text-black">
         <div>
-          <h6 className="font-bold uppercase pt-2  text-black ">Support</h6>
+          <h6 className="font-bold uppercase pt-2  text-black ">Partner With Us</h6>
           <ul>
-            <li className="py-1  text-black ">Become A driver</li>
-            <li className="py-1  text-black ">Partner With Us</li>
-            <li className="py-1  text-black ">About Us</li>
+    <Link href="/driverapplication"><li className="py-1  text-black ">Become A driver</li></Link>
+            <Link href="/SignUp"><li className="py-1  text-black ">Partner With Us</li></Link>
+             <Link href="/aboutus"><li className="py-1  text-black ">About Us</li></Link>
           </ul>
         </div>
         <div>
