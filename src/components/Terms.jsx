@@ -2,7 +2,7 @@ import React from "react";
 
 const Terms =()=>{
     return (
-     
+        <>
         <h2>
           <p>Terms and Conditions</p>
         </h2>
@@ -326,7 +326,8 @@ const Terms =()=>{
           are provided free of charge, we will not be liable for any loss or
           damage of any nature.
         </p>
-      
+
+       </>
     );
 }
 export default Terms;
