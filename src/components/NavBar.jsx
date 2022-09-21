@@ -18,7 +18,7 @@ const Navbar = () => {
             <Image src={logo} alt="Logo" width={90} height={90} />
           </Link>
           <ul className="hidden md:flex">
-            <Link href="/home">
+            <Link href="/">
               <li>Home</li>
             </Link>
             <Link href="/aboutus">
