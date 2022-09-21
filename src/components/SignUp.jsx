@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Hero from "./Hero";
+import HeroSignUp from "./HeroSignUp";
 import About from "./About";
 import Pricing from "./Pricing";
 import Footer from "./Footer";
@@ -11,7 +11,7 @@ const Signup = () => {
   return (
     <>
       <NavBar />
-      <Hero />
+      <HeroSignUp />
       <About/>
       <HomeRestaurant/>
       <RestuarantApplication/>
