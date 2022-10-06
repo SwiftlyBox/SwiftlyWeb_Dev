@@ -1,10 +1,12 @@
+ /* eslint-disable */ 
+
 import React from "react";
 import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
   FaLinkedin,
-  FaTikTok,
+  FaTiktok,
 } from "react-icons/fa";
 import Link from "next/link";
 
