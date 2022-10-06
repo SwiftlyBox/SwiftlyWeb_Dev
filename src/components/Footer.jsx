@@ -3,7 +3,10 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaFacebook,
+  FaTwitter,
+  FaTikTok,
 } from "react-icons/fa";
 import Link from "next/link";
 
@@ -67,6 +70,15 @@ const Footer = () => {
           </Link>
           <Link href="https://www.linkedin.com/company/swiftlybox/">
             <FaLinkedin />
+          </Link>
+         <Link href="https://www.tiktok.com/@swiftlybox">
+            <FaTikTok />
+          </Link>
+             <Link href="https://twitter.com/Swiftlybox?fbclid=IwAR2PfP5b1UP2GCYCEiqO6FimKmfqp_EmSbPyV31RGJMgWip7JucADyphop4">
+            <FaTwitter />
+          </Link>
+           <Link href="https://www.facebook.com/profile.php?id=100083350375456">
+            <FaFacebook />
           </Link>
         </div>
       </div>
