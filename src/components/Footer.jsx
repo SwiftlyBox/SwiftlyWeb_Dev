@@ -56,7 +56,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-span-2 pt-8 md:pt-2">
-          <p className=" text-black ">support@swiftlybox.com</p>
+          <p className=" text-black "> Contact Us :support@swiftlybox.com</p>
         </div>
       </div>
 
